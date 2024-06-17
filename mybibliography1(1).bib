@@ -1,0 +1,1532 @@
+%NEW FOR ESORICS2024
+
+@inproceedings{benhamouda2023anonymous,
+  title={Anonymous counting tokens},
+  author={Benhamouda, Fabrice and Raykova, Mariana and Seth, Karn},
+  booktitle={International Conference on the Theory and Application of Cryptology and Information Security},
+  pages={245--278},
+  year={2023},
+  organization={Springer}
+}
+
+@inproceedings{kreuter2020anonymous,
+  title={Anonymous tokens with private metadata bit},
+  author={Kreuter, Ben and Lepoint, Tancr{\`e}de and Orr{\`u}, Michele and Raykova, Mariana},
+  booktitle={Advances in Cryptology--CRYPTO 2020: 40th Annual International Cryptology Conference, CRYPTO 2020, Santa Barbara, CA, USA, August 17--21, 2020, Proceedings, Part I 40},
+  pages={308--336},
+  year={2020},
+  organization={Springer}
+}
+
+@inproceedings{camenisch2001efficient,
+  title={An efficient system for non-transferable anonymous credentials with optional anonymity revocation},
+  author={Camenisch, Jan and Lysyanskaya, Anna},
+  booktitle={Advances in Cryptology—EUROCRYPT 2001: International Conference on the Theory and Application of Cryptographic Techniques Innsbruck, Austria, May 6--10, 2001 Proceedings 20},
+  pages={93--118},
+  year={2001},
+  organization={Springer}
+}
+
+@misc{davidsonprivacy,
+  title={Privacy pass: bypassing internet challenges anonymously. PoPETs 2018 (3), 164--180 (2018)},
+  author={Davidson, A and Goldberg, I and Sullivan, N and Tankersley, G and Valsorda, F}
+}
+
+@inproceedings{freedman2005keyword,
+  title={Keyword search and oblivious pseudorandom functions},
+  author={Freedman, Michael J and Ishai, Yuval and Pinkas, Benny and Reingold, Omer},
+  booktitle={Theory of Cryptography: Second Theory of Cryptography Conference, TCC 2005, Cambridge, MA, USA, February 10-12, 2005. Proceedings 2},
+  pages={303--324},
+  year={2005},
+  organization={Springer}
+}
+
+@inproceedings{shin2016secure,
+  title={A secure anonymous password-based authentication protocol with control of authentication numbers},
+  author={Shin, SeongHan and Kobara, Kazukuni},
+  booktitle={2016 International Symposium on Information Theory and its Applications (ISITA)},
+  pages={325--329},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{yang2010towards,
+  title={Towards practical anonymous password authentication},
+  author={Yang, Yanjiang and Zhou, Jianying and Wong, Jun Wen and Bao, Feng},
+  booktitle={Proceedings of the 26th Annual Computer Security Applications Conference},
+  pages={59--68},
+  year={2010}
+}
+
+@inproceedings{Boyarsky99,
+author = {Boyarsky, Maurizio Kliban},
+title = {Public-key cryptography and password protocols: the multi-user case},
+year = {1999},
+isbn = {1581131488},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/319709.319719},
+doi = {10.1145/319709.319719},
+abstract = {The problem of password authentication over an insecure network when the user holds only a human-memorizable password has received much attention in the literature. The first rigorous treatment was provided by Halevi and Krawczyk, who studied off-line password guessing attacks in the scenario in which the authentication server possesses a pair of private and public keys. In this work we:
+Show the inadequacy of both the HK formalization and protocol in the case where there is more than a single user: using a simple and realistic attack, we prove failure of the HK solution in the two-user case.Propose a new definition of security for the multi-user case, expressed in terms of transcripts of the entire system, rather than individual protocol executions.Suggest several ways of achieving this security against both static and dynamic adversaries.In a recent revision of their paper, Halevi and Krawczyk again attempted to handle the multi-user case. We expose a weakness in their revised definition.},
+booktitle = {Proceedings of the 6th ACM Conference on Computer and Communications Security},
+pages = {63–72},
+numpages = {10},
+location = {Kent Ridge Digital Labs, Singapore},
+series = {CCS '99}
+}
+
+@article{HalveiKrawczyk99,
+author = {Halevi, Shai and Krawczyk, Hugo},
+title = {Public-key cryptography and password protocols},
+year = {1999},
+issue_date = {Aug. 1999},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {3},
+issn = {1094-9224},
+url = {https://doi.org/10.1145/322510.322514},
+doi = {10.1145/322510.322514},
+abstract = {We study protocols for strong authentication and key exchange in asymmetric scenarios where the authentication server possesses ~a pair of private and public keys while the client has only a weak human-memorizable password as its authentication key. We present and analyze several simple password authentication protocols in this scenario, and show that the security of these protocols can be formally proven based on standard cryptographic assumptions. Remarkably, our analysis shows optimal resistance to off-line password guessing attacks under the choice of suitable public key encryption functions. In addition to user authentication, we describe ways to enhance these protocols to provide two-way authentication, authenticated key exchange, defense against server's compromise, and user  anonymity. We complement these results with a proof that strongly indicates that public key techniques are unavoidable for password protocols that resist off-line guessing attacks.As a further contribution, we introduce the notion of public passwords that enables the use of the above protocols in situations where the client's machine does not have the means to validate the server's public key. Public passwords serve as "hand-held certificates" that the user can carry without the need for specal computing devices.},
+journal = {ACM Trans. Inf. Syst. Secur.},
+month = {aug},
+pages = {230–268},
+numpages = {39},
+keywords = {dictionary attacks, hand-held certificates, key exchange, passwords, public passwords, public-key protocols}
+}
+
+  
+@InProceedings{Impagliazzo88,
+author="Impagliazzo, Russell
+and Rudich, Steven",
+editor="Goldwasser, Shafi",
+title="Limits on the Provable Consequences of One-way Permutations",
+booktitle="Advances in Cryptology --- CRYPTO' 88",
+year="1990",
+publisher="Springer New York",
+address="New York, NY",
+pages="8--26",
+abstract="We present strong evidence that the implication, ``if one-way permutations exist, then secure secret key agreement is possible'', is not provable by standard techniques. Since both sides of this implication are widely believed true in real life, to show that the implication is false requires a new model. We consider a world where all parties have access to a black box for a randomly selected permutation. Being totally random, this permutation will be strongly one-way in a provable, information-theoretic way. We show that, if P = NP, no protocol for secret key agreement is secure in such a setting. Thus, to prove that a secret key agreement protocol which uses a one-way permutation as a black box is secure is as hard as proving P ≠ NP. We also obtain, as a corollary, that there is an oracle relative to which the implication is false, i.e., there is a one-way permutation, yet secret-exchange is impossible. Thus, no technique which relativizes can prove that secret exchange can be based on any one-way permutation. Our results present a general framework for proving statements of the form, ``Cryptographic application X is not likely possible based solely on complexity assumption Y.''",
+isbn="978-0-387-34799-8"
+}
+
+@InProceedings{Pedersen91,
+author="Pedersen, Torben Pryds",
+editor="Feigenbaum, Joan",
+title="Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing",
+booktitle="Advances in Cryptology --- CRYPTO '91",
+year="1992",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="129--140",
+abstract="It is shown how to distribute a secret to n persons such that each person can verify that he has received correct information about the secret without talking with other persons. Any k of these persons can later find the secret (1 ≤ k ≤ n), whereas fewer than k persons get no (Shannon) information about the secret. The information rate of the scheme is 1/2 and the distribution as well as the verification requires approximately 2k modular multiplications pr. bit of the secret. It is also shown how a number of persons can choose a secret ``in the well'' and distribute it verifiably among themselves.",
+isbn="978-3-540-46766-3"
+}
+
+
+%Entries
+
+@InProceedings{10.1007/3-540-45682-1_32,
+author="Rivest, Ronald L.
+and Shamir, Adi
+and Tauman, Yael",
+editor="Boyd, Colin",
+title="How to Leak a Secret",
+booktitle="Advances in Cryptology --- ASIACRYPT 2001",
+year="2001",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="552--565",
+abstract="In this paper we formalize the notion of a ring signature, which makes it possible to specify a set of possible signers without revealing which member actually produced the signature.Unlike group signatures, ring signatures have no group managers, no setup procedures, no revocation procedures, and no coordination:any user can choose any set of possible signers that includes himself,and sign any message by using his secret key and the others' public keys,without getting their approval or assistance. Ring signatures provide an elegant way to leak authoritativ secrets in an anonymous way, to sign casual email in a way which can only be verified by its intended recipient, and to solve other problems in multiparty computations. The main contribution of this paper is a new construction of such signatures which is unconditionally signer-ambiguous, provably secure in the random oracle model,and exceptionally efficient:adding each ring member increases the cost of signing or verifying by a single modular multiplication and a single symmetric encryption.",
+isbn="978-3-540-45682-7"
+}
+
+%MY ENTRIES
+
+%Entries
+
+%Memory-hard functions:
+
+@misc{cryptoeprint:2016/989,
+      author = {Joël Alwen and Binyi Chen and Krzysztof Pietrzak and Leonid Reyzin and Stefano Tessaro},
+      title = {Scrypt is Maximally Memory-Hard},
+      howpublished = {Cryptology ePrint Archive, Paper 2016/989},
+      year = {2016},
+      note = {\url{https://eprint.iacr.org/2016/989}},
+      url = {https://eprint.iacr.org/2016/989}
+}
+
+@misc{cryptoeprint:2016/100,
+      author = {Joël Alwen and Binyi Chen and Chethan Kamath and Vladimir Kolmogorov and Krzysztof Pietrzak and Stefano Tessaro},
+      title = {On the Complexity of Scrypt and Proofs of Sapce in the Parallel Random Oracle Model},
+      howpublished = {Cryptology ePrint Archive, Paper 2016/100},
+      year = {2016},
+      note = {\url{https://eprint.iacr.org/2016/100.pdf}},
+      url = {https://eprint.iacr.org/2016/100.pdf}
+}
+
+@misc{cryptoeprint:2017/442,
+      author = {Jeremiah Blocki and Samson Zhou},
+      title = {On the Depth-Roubustness and Cumulative Pebbling Cost of Argon2i},
+      howpublished = {Cryptology ePrint Archive, Paper 2017/442},
+      year = {2017},
+      note = {\url{https://eprint.iacr.org/2017/442.pdf}},
+      url = {https://eprint.iacr.org/2017/442.pdf}
+}
+
+@INPROCEEDINGS{7536388,
+  author={Blocki, Jeremiah and Datta, Anupam},
+  booktitle={2016 IEEE 29th Computer Security Foundations Symposium (CSF)}, 
+  title={CASH: A Cost Asymmetric Secure Hash Algorithm for Optimal Password Protection}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={371-386},
+  doi={10.1109/CSF.2016.33}}
+
+%Biometric authentication
+
+@inproceedings{mock2012real,
+  title={Real-time continuous iris recognition for authentication using an eye tracker},
+  author={Mock, Kenrick and Hoanca, Bogdan and Weaver, Justin and Milton, Mikal},
+  booktitle={Proceedings of the 2012 ACM conference on Computer and communications security},
+  pages={1007--1009},
+  year={2012}
+}
+
+@inproceedings{10.1145/2382196.2382307,
+author = {Mock, Kenrick and Hoanca, Bogdan and Weaver, Justin and Milton, Mikal},
+title = {Real-Time Continuous Iris Recognition for Authentication Using an Eye Tracker},
+year = {2012},
+isbn = {9781450316514},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2382196.2382307},
+doi = {10.1145/2382196.2382307},
+abstract = {The majority of today's authentication systems, including password and fingerprint scanners, are based on one-time, static authentication methods. A continuous, real-time authentication system opens up the possibility for greater security, but such a system must be unobtrusive and secure. In this work we studied whether a commercial eye tracker can be used for unobtrusive, continuous, real-time user authentication via iris recognition. In a user study, all 37 participants could be authenticated with 11\% equal error rate (EER). For 14 of the 37 users, iris occlusion was sufficiently small to authenticate with 9\% EER. When classified using a k-nearest neighbors algorithm and only the right iris, the same data set allowed 100\% accuracy for k = 3. Although these error rates are too high for standalone use, iris recognition via an eye tracker might enable real-time continuous authentication when combined with other more reliable authentication means (e.g., a password). As eye trackers become widely available their capabilities for multiple factor, continuous authentication will become compelling.},
+booktitle = {Proceedings of the 2012 ACM Conference on Computer and Communications Security},
+pages = {1007–1009},
+numpages = {3},
+keywords = {iris recognition, authentication, eye tracking},
+location = {Raleigh, North Carolina, USA},
+series = {CCS '12}
+}
+
+@inproceedings{10.1145/3230820.3230827,
+author = {Pahariya, Parth and Singh, Sanjay Kumar},
+title = {Fingerprint Authentication Using LT Codes},
+year = {2018},
+isbn = {9781450363945},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3230820.3230827},
+doi = {10.1145/3230820.3230827},
+abstract = {Biometric is used for identifying the person based on their traits. Fingerprint is one of the most important and most used biometric trait for person authentication. Fingerprint database must be stored in efficient way and in most secure way so that it is unable to hack by the hacker and it will be able to recognize the person fast in large database. In this paper, we proposed an efficient way of storing the fingerprint data for fast recognition. We are using LT codes for storing the x coordinates of minutiae points and fingerprint images is stored in encrypted form with the coordinates. We are using on-the-y gaussian algorithm for decoding the x coordinates and calculate the value for finding similarity in between two fingerprints.},
+booktitle = {Proceedings of the 2018 2nd International Conference on Biometric Engineering and Applications},
+pages = {38–42},
+numpages = {5},
+keywords = {minutiae, enhancement, rateless codes, fingerprint, Biometrics},
+location = {Amsterdam, Netherlands},
+series = {ICBEA '18}
+}
+
+@inproceedings{10.1145/2983310.2989210,
+author = {Imura, Satoru and Hosobe, Hiroshi},
+title = {Biometric Authentication Using the Motion of a Hand},
+year = {2016},
+isbn = {9781450340687},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2983310.2989210},
+doi = {10.1145/2983310.2989210},
+abstract = {We propose a hand gesture-based spatial interaction method for biometric authentication. It supports 3D gestures that allow the user to move his/her hand without touching an input device. Using the motions of fingertips and joints as biometric data, the method improves the accuracy of authentication. We present the results of experiments, where subjects performed three types of gestures.},
+booktitle = {Proceedings of the 2016 Symposium on Spatial User Interaction},
+pages = {221},
+numpages = {1},
+keywords = {gesture-based spatial interaction, biometric authentication},
+location = {Tokyo, Japan},
+series = {SUI '16}
+}
+  
+
+%Password-less Authentication
+@INPROCEEDINGS{9152694,
+
+  author={Ghorbani Lyastani, Sanam and Schilling, Michael and Neumayr, Michaela and Backes, Michael and Bugiel, Sven},
+
+  booktitle={2020 IEEE Symposium on Security and Privacy (SP)}, 
+
+  title={Is FIDO2 the Kingslayer of User Authentication? A Comparative Usability Study of FIDO2 Passwordless Authentication}, 
+
+  year={2020},
+
+  volume={},
+
+  number={},
+
+  pages={268-285},
+
+  doi={10.1109/SP40000.2020.00047}}
+
+
+@inproceedings{10.1145/3538969.3544436,
+author = {Bolgouras, Vaios and Angelogianni, Anna and Politis, Ilias and Xenakis, Christos},
+title = {Trusted and Secure Self-Sovereign Identity Framework},
+year = {2022},
+isbn = {9781450396707},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3538969.3544436},
+doi = {10.1145/3538969.3544436},
+abstract = {Digitization, in terms of online services, work environment and other day-to-day procedures, has lead to the wide adoption and use of the respective digital identities. Users utilize their digital personas and their corresponding attributes on a daily basis, in order to gain access to resources and services. This is achieved through the use of numerous identity management schemes, which often suffer from multiple vulnerabilities and are susceptible to threats. This results in the compromise of user privacy and data security. In the recent years, new technologies related to identity management, like the Self-Sovereign Identity (SSI) and eIDAS concepts, are employed to mitigate these issues. This paper presents an architecture that combines state-of-the-art technologies regarding identity management, authentication and secure storage. More specifically, the proposed framework utilizes IOTA-based SSI, the eIDAS framework, FIDO protocol and Trusted Execution Environment (TEE), resulting in a trusted and secure identity management framework. Our solution is thoroughly presented via scenarios, showcasing its robustness and how well it copes in relation to our threat model.},
+booktitle = {Proceedings of the 17th International Conference on Availability, Reliability and Security},
+articleno = {101},
+numpages = {6},
+keywords = {SSI, eIDAS, FIDO, IOTA, Identity Management},
+location = {Vienna, Austria},
+series = {ARES '22}
+}
+
+@INPROCEEDINGS{9126742,
+  author={Naik, Nitin and Jenkins, Paul},
+  booktitle={2020 8th IEEE International Conference on Mobile Cloud Computing, Services, and Engineering (MobileCloud)}, 
+  title={Self-Sovereign Identity Specifications: Govern Your Identity Through Your Digital Wallet using Blockchain Technology}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={90-95},
+  doi={10.1109/MobileCloud48802.2020.00021}}
+
+
+@inproceedings{10.1145/3319535.3363258,
+author = {Chakraborty, Dhiman and Bugiel, Sven},
+title = {SimFIDO: FIDO2 User Authentication with SimTPM},
+year = {2019},
+isbn = {9781450367479},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3319535.3363258},
+doi = {10.1145/3319535.3363258},
+abstract = {WebAuthn as part of FIDO2 is a new standard for two-factor and even password-less user authentication to web-services. Leading browsers, like Google Chrome, Microsoft Edge, and Mozilla Firefox, support the WebAuthn API. Unfortunately, the availability of hardware authenticators that support FIDO2 authentication is still focused heavily on desktop computers, while for mobile devices, only a limited choice of suitable authenticators is available to users (few roaming authenticators with wireless connectivity and even fewer built-in platform authenticators on mobile devices). This creates a void for users, in particular users of older device generations that lack platform authenticators and the right connectivity, to authenticate themselves with WebAuthn to web-services. In this poster, we present the idea ofsimFIDO, a FIDO2 setup using a recently developed simTPM as (platform) authenticator for mobile devices and even as roaming authenticator offered by mobile devices to connected computers. The move-ability property of the key storage of simTPM makes the users' lives easier for credential portability between devices. In particular, a seamless integration of simTPM with non-mobile devices through phones will help to create a kind of universal authentication setup using FIDO2. Although we present the concrete design and implementation of a SIM card-based FIDO2 authenticator, we hope this poster will contribute to the discussion about how and in which form hardware authenticators can be made available to users.},
+booktitle = {Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {2569–2571},
+numpages = {3},
+keywords = {hardware-based security protocols, multi-factor authentication, usability in security and privacy},
+location = {London, United Kingdom},
+series = {CCS '19}
+}
+
+@InProceedings{10.1007/3-540-45539-6_11,
+author="Bellare, Mihir
+and Pointcheval, David
+and Rogaway, Phillip",
+editor="Preneel, Bart",
+title="Authenticated Key Exchange Secure against Dictionary Attacks",
+booktitle="Advances in Cryptology --- EUROCRYPT 2000",
+year="2000",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="139--155",
+abstract="Password-based protocols for authenticated key exchange (AKE) are designed to work despite the use of passwords drawn from a space so small that an adversary might well enumerate, off line, all possible passwords. While several such protocols have been suggested, the underlying theory has been lagging. We begin by defining a model for this problem, one rich enough to deal with password guessing, forward secrecy, server compromise, and loss of session keys. The one model can be used to define various goals. We take AKE (with ``implicit'' authentication) as the ``basic'' goal, and we give definitions for it, and for entity-authentication goals as well. Then we prove correctness for the idea at the center of the Encrypted Key-Exchange (EKE) protocol of Bellovin and Merritt: we prove security, in an ideal-cipher model, of the two-flow protocol at the core of EKE.",
+isbn="978-3-540-45539-4"
+}
+
+@misc{Bindel2022,
+      author = {Nina Bindel and Cas Cremers and Mang Zhao},
+      title = {FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation},
+      howpublished = {Cryptology ePrint Archive, Paper 2022/1029},
+      year = {2022},
+      note = {\url{https://eprint.iacr.org/2022/1029}},
+      url = {https://eprint.iacr.org/2022/1029}
+}
+
+@misc{cryptoeprint:2020/756,
+      author = {Manuel Barbosa and Alexander Boldyreva and Shan Chen and Bogdan Warinschi},
+      title = {Provable Security Analysis of FIDO2},
+      howpublished = {Cryptology ePrint Archive, Paper 2017/442},
+      year = {2020},
+      note = {\url{https://eprint.iacr.org/2020/756.pdf}},
+      url = {https://eprint.iacr.org/2020/756.pdf}
+}
+
+
+
+
+%Credentials
+@inproceedings{tan2020monipoly,
+  title={Monipoly—an expressive q-SDH-based anonymous attribute-based credential system},
+  author={Tan, Syh-Yuan and Gro{\ss}, Thomas},
+  booktitle={International Conference on the Theory and Application of Cryptology and Information Security},
+  pages={498--526},
+  year={2020},
+  organization={Springer}
+}
+
+
+%Chess-grand master "Man in the Middle Problem"
+@InProceedings{MITM-Desmedt,
+author="Desmedt, Yvo
+and Goutier, Claude
+and Bengio, Samy",
+editor="Pomerance, Carl",
+title="Special Uses and Abuses of the Fiat-Shamir Passport Protocol (extended abstract)",
+booktitle="Advances in Cryptology --- CRYPTO '87",
+year="1988",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="21--39",
+abstract="If the physical description of a person would be unique and adequately used and tested, then the security of the Fiat-Shamir scheme is not based on zero-knowledge. Otherwise some new frauds exist. The Feige-Fiat-Shamir scheme always suffers from these bauds. Using an extended notion of subliminal channels, several other undetectable abuses of the Fiat-Shamir protocol, which are not possible with ordinary passports, are discussed. This technique can be used by a terrorist sponsoring country to communicate 500 new words of secret information each time a tourist passport is verified. A non-trivial solution to avoid these subliminal channel problems is presented. The notion of relative zero-knowledge is introduced.",
+isbn="978-3-540-48184-3"
+}
+
+@Article{Shamir-1979,
+  author    = {Adi Shamir},
+  title     = {How to Share a Secret},
+  journal   = {Commun. {ACM}},
+  volume    = {22},
+  number    = {11},
+  pages     = {612--613},
+  year      = {1979},
+  url       = {http://doi.acm.org/10.1145/359168.359176},
+  timestamp = {Wed, 14 Nov 2018 10:22:34 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/cacm/Shamir79},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{MITM-Beth,
+  title={Identification Tokens - or: Solving the Chess Grandmaster Problem},
+  booktitle={Advances in Cryptology - CRYPTO '90, 10th Annual International Cryptology Conference, Santa Barbara, California, USA, August 11-15, 1990, Proceedings},
+  series={Lecture Notes in Computer Science},
+  publisher={Springer},
+  volume={537},
+  pages={169-177},
+  doi={10.1007/3-540-38424-3_12},
+  author={Thomas Beth and Yvo Desmedt},
+  year=1990
+}
+
+@article{MITM-Alkassar,
+author = {Alkassar, Ammar and Uble, Christian and Sadeghi, Ahmad-reza},
+year = {2004},
+month = {07},
+pages = {},
+title = {Secure Object Identification - or: Solving The Chess Grandmaster Problem}
+}
+
+
+
+%Identification Protocols.
+@inproceedings{HowToProveUrself,
+author = {Fiat, Amos and Shamir, Adi},
+title = {How to Prove Yourself: Practical Solutions to Identification and Signature Problems},
+year = {1987},
+isbn = {0387180478},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+abstract = {In this paper we describe simple identification and signature schemes which enable any user to prove his identity and the authenticity of his messages to any other user without shared or public keys. The schemes are provably secure against any known or chosen message attack if factoring is difficult, and typical implementations require only 1\% to 4\% of the number of modular multiplications required by the RSA scheme. Due to their simplicity, security and speed, these schemes are ideally suited for microprocessor-based devices such as smart cards, personal computers, and remote control systems.},
+booktitle = {Proceedings on Advances in Cryptology---CRYPTO '86},
+pages = {186–194},
+numpages = {9},
+location = {Santa Barbara, California, USA}
+}
+
+@ARTICLE{Diffie-Hellman,
+  author={Diffie, W. and Hellman, M.},
+  journal={IEEE Transactions on Information Theory}, 
+  title={New directions in cryptography}, 
+  year={1976},
+  volume={22},
+  number={6},
+  pages={644-654},
+  doi={10.1109/TIT.1976.1055638}
+}
+
+@inproceedings{ZKP-Identity,
+author = {Fiege, U. and Fiat, A. and Shamir, A.},
+title = {Zero Knowledge Proofs of Identity},
+year = {1987},
+isbn = {0897912217},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/28395.28419},
+doi = {10.1145/28395.28419},
+abstract = {In this paper we extend the notion of zero knowledge proofs of membership (which reveal one bit of information) to zero knowledge proofs of knowledge (which reveal no information whatsoever). After formally defining this notion, we show its relevance to identification schemes, in which parties prove their identity by demonstrating their knowledge rather than by proving the validity of assertions. We describe a novel scheme which is provably secure if factoring is difficult and whose practical implementations are about two orders of magnitude faster than RSA-based identification schemes. In the last part of the paper we consider the question of sequential versus parallel executions of zero knowledge protocols, define a new notion of “transferable information”, and prove that the parallel version of our identification scheme (which is not known to be zero knowledge) is secure since it reveals no transferable information.},
+booktitle = {Proceedings of the Nineteenth Annual ACM Symposium on Theory of Computing},
+pages = {210–217},
+numpages = {8},
+location = {New York, New York, USA},
+series = {STOC '87}
+}
+
+@misc{cryptoeprint:2000/044,
+      author = {Victor Boyko and Philip MacKenzie and Sarvar Patel},
+      title = {Provably Secure Password-Authenticated Key Exchange Using Diffie-Hellman},
+      howpublished = {Cryptology ePrint Archive, Paper 2000/044},
+      year = {2000},
+      note = {\url{https://eprint.iacr.org/2000/044}},
+      url = {https://eprint.iacr.org/2000/044}
+}
+
+@misc{cryptoeprint:2001/031,
+      author = {Jonathan Katz and Rafail Ostrovsky and Moti Yung},
+      title = {Efficient Password-Authenticated Key Exchange Using Human-Memorable Passwords},
+      howpublished = {Cryptology ePrint Archive, Paper 2001/031},
+      year = {2001},
+      note = {\url{https://eprint.iacr.org/2001/031}},
+      url = {https://eprint.iacr.org/2001/031}
+}
+
+@misc{cryptoeprint:2010/147,
+      author = {Adam Groce and Jonathan Katz},
+      title = {A New Framework for Password-Based Authenticated Key Exchange},
+      howpublished = {Cryptology ePrint Archive, Paper 2010/147},
+      year = {2010},
+      note = {\url{https://eprint.iacr.org/2010/147}},
+      url = {https://eprint.iacr.org/2010/147}
+}
+
+@misc{cryptoeprint:2010/368,
+      author = {Jonathan Katz and Vinod Vaikuntanathan},
+      title = {Round-Optimal Password-Based Authenticated Key Exchange},
+      howpublished = {Cryptology ePrint Archive, Paper 2010/368},
+      year = {2010},
+      note = {\url{https://eprint.iacr.org/2010/368}},
+      url = {https://eprint.iacr.org/2010/368}
+}
+
+@misc{cryptoeprint:2005/196,
+      author = {Ran Canetti and Shai Halevi and Jonathan Katz and Yehuda Lindell and Philip MacKenzie},
+      title = {Universally Composable Password-Based Key Exchange},
+      howpublished = {Cryptology ePrint Archive, Paper 2005/196},
+      year = {2005},
+      note = {\url{https://eprint.iacr.org/2005/196}},
+      url = {https://eprint.iacr.org/2005/196}
+}
+
+@misc{cryptoeprint:2009/430,
+      author = {Kenneth G.  Paterson and Douglas Stebila},
+      title = {One-time-password-authenticated key exchange},
+      howpublished = {Cryptology ePrint Archive, Paper 2009/430},
+      year = {2009},
+      note = {\url{https://eprint.iacr.org/2009/430}},
+      url = {https://eprint.iacr.org/2009/430}
+}
+
+@InProceedings{10.1007/3-540-36413-7_3,
+author="Katz, Jonathan
+and Ostrovsky, Rafail
+and Yung, Moti",
+editor="Cimato, Stelvio
+and Persiano, Giuseppe
+and Galdi, Clemente",
+title="Forward Secrecy in Password-Only Key Exchange Protocols",
+booktitle="Security in Communication Networks",
+year="2003",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="29--44",
+abstract="Password-only authenticated key exchange (PAKE) protocols are designed to be secure even when users choose short, easilyguessed passwords. Security requires, in particular, that the protocol cannot be broken by an off-line dictionary attack in which an adversary enumerates all possible passwords in an attempt to determine the correct one based on previously-viewed transcripts. Recently, provably-secure protocols for PAKE were given in the idealized random oracle/ideal cipher models [2],[8],[19] and in the standard model based on general assumptions [11] or the DDH assumption [14].",
+isbn="978-3-540-36413-9"
+}
+
+@InProceedings{10.1007/978-3-319-78372-7_15,
+author="Jarecki, Stanislaw
+and Krawczyk, Hugo
+and Xu, Jiayu",
+editor="Nielsen, Jesper Buus
+and Rijmen, Vincent",
+title="OPAQUE: An Asymmetric PAKE Protocol Secure Against Pre-computation Attacks",
+booktitle="Advances in Cryptology -- EUROCRYPT 2018 ",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="456--486",
+abstract="Password-Authenticated Key Exchange (PAKE) protocols allow two parties that only share a password to establish a shared key in a way that is immune to offline attacks. Asymmetric PAKE (aPAKE) strengthens this notion for the more common client-server setting where the server stores a mapping of the password and security is required even upon server compromise, that is, the only allowed attack in this case is an (inevitable) offline exhaustive dictionary attack against individual user passwords. Unfortunately, most suggested aPAKE protocols (that dispense with the use of servers' public keys) allow for pre-computation attacks that lead to the instantaneous compromise of user passwords upon server compromise, thus forgoing much of the intended aPAKE security. Indeed, these protocols use -- in essential ways -- deterministic password mappings or use random ``salt'' transmitted in the clear from servers to users, and thus are vulnerable to pre-computation attacks.",
+isbn="978-3-319-78372-7"
+}
+
+@inproceedings{jarecki2014,
+author = {Jarecki, Stanislaw and Kiayias, Aggelos and Krawczyk, Hugo},
+year = {2014},
+month = {12},
+pages = {233-253},
+title = {Round-Optimal Password-Protected Secret Sharing and T-PAKE in the Password-Only Model},
+isbn = {978-3-662-45607-1},
+doi = {10.1007/978-3-662-45608-8_13}
+}
+
+@INPROCEEDINGS{7467360,
+  author={Jarecki, Stanislaw and Kiayias, Aggelos and Krawczyk, Hugo and Xu, Jiayu},
+  booktitle={2016 IEEE European Symposium on Security and Privacy (EuroS\& P)}, 
+  title={Highly-Efficient and Composable Password-Protected Secret Sharing (Or: How to Protect Your Bitcoin Wallet Online)}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={276-291},
+  doi={10.1109/EuroSP.2016.30}}
+
+%RING Signatures
+@InProceedings{10.1007/11958239_11,
+author="Ohkubo, Miyako
+and Abe, Masayuki",
+editor="Nguyen, Phong Q.",
+title="On the Definition of Anonymity for Ring Signatures",
+booktitle="Progress in Cryptology - VIETCRYPT 2006",
+year="2006",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="157--174",
+abstract="This paper studies the relations among several definitions of anonymity in the same attack environment. It is shown that one intuitive and two technical definitions we consider are asymptotically equivalent, and the indistinguishability-based technical definition is the strongest, i.e., the most secure when achieved, when the exact reduction cost is taken into account. We then extend our result to the threshold case where a subset of members cooperate to create a signature. The threshold setting makes the notion of anonymity more complex and yields a greater variety of definitions. We explore several notions and observe certain relation does not seem hold unlike the simple single-signer case. Nevertheless, we see that an indistinguishability-based definition is the most favorable in the threshold case. We also present a notion of anonymity with linkability and a simple generic construction.",
+isbn="978-3-540-68800-6"
+}
+  
+%T-PAKE
+@InProceedings{T-PAKE-Mackenzie,
+author="MacKenzie, Philip
+and Shrimpton, Thomas
+and Jakobsson, Markus",
+editor="Yung, Moti",
+title="Threshold Password-Authenticated Key Exchange",
+booktitle="Advances in Cryptology --- CRYPTO 2002",
+year="2002",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="385--400",
+abstract="In most password-authenticated key exchange systems there is a single server storing password verification data. To provide some resilience against server compromise, this data typically takes the form of a one-way function of the password (and possibly a salt, or other public values), rather than the password itself. However, if the server is compromised, this password verification data can be used to perform an offline dictionary attack on the user's password. In this paper we propose an efficient password-authenticated key exchange system involving a set of servers, in which a certain threshold of servers must participate in the authentication of a user, and in which the compromise of any fewer than that threshold of servers does not allow an attacker to perform an offline dictionary attack. We prove our system is secure in the random oracle model under the Decision Diffie-Hellman assumption against an attacker that may eavesdrop on, insert, delete, or modify messages between the user and servers, and that compromises fewer than that threshold of servers.",
+isbn="978-3-540-45708-4"
+}
+
+%Memento
+@misc{cryptoeprint:2014/429,
+      author = {Jan Camenisch and Anja Lehmann and Anna Lysyanskaya and Gregory Neven},
+      title = {Memento: How to Reconstruct your Secrets from a Single Password in a Hostile Environment},
+      howpublished = {Cryptology ePrint Archive, Paper 2014/429},
+      year = {2014},
+      note = {\url{https://eprint.iacr.org/2014/429}},
+      url = {https://eprint.iacr.org/2014/429}
+}
+
+@misc{cryptoeprint:2020/524,
+      author = {Balthazar Bauer and Georg Fuchsbauer},
+      title = {Efficient Signatures on Randomizable Ciphertexts},
+      howpublished = {Cryptology ePrint Archive, Paper 2020/524},
+      year = {2020},
+      note = {\url{https://eprint.iacr.org/2020/524}},
+      url = {https://eprint.iacr.org/2020/524}
+}
+
+%Secure key distribution:
+@inproceedings{10.5555/1756123.1756153,
+author = {Gennaro, Rosario and Jarecki, Stanis\l{}aw and Krawczyk, Hugo and Rabin, Tal},
+title = {Secure Distributed Key Generation for Discrete-Log Based Cryptosystems},
+year = {1999},
+isbn = {3540658890},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+abstract = {Distributed key generation is a main component of threshold cryptosystems and distributed cryptographic computing in general. Solutions to the distributed generation of private keys for discrete-log based cryptosystems have been known for several years and used in a variety of protocols and in many research papers. However, these solutions fail to provide the full security required and claimed by these works. We show how an active attacker controlling a small number of parties can bias the values of the generated keys, thus violating basic correctness and secrecy requirements of a key generation protocol. In particular, our attacks point out to the places where the proofs of security fail. Based on these findings we designed a distributed key generation protocol which we present here together with a rigorous proof of security. Our solution, that achieves optimal resiliency, can be used as a drop-in replacement for key generation modules as well as other components of threshold or proactive discrete-log based cryptosystems.},
+booktitle = {Proceedings of the 17th International Conference on Theory and Application of Cryptographic Techniques},
+pages = {295–310},
+numpages = {16},
+keywords = {distributed key generation, threshold cryptography, discrete logarithm, VSS},
+location = {Prague, Czech Republic},
+series = {EUROCRYPT'99}
+}
+
+  
+
+%PASTA
+@article{PASTA-Agrawal,
+  title="PASTA: PASsword-based Threshold Authentication",
+  author="Shashank Agrawal and Peihan Miao and Payman Mohassel and Pratyay Mukherjee",
+  journal="Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security",
+  year="2018"
+}
+
+%PPSS
+@inproceedings{PPSS-bagherzand,
+  title={Password-protected secret sharing},
+  author={Bagherzandi, Ali and Jarecki, Stanislaw and Saxena, Nitesh and Lu, Yanbin},
+  booktitle={CCS},
+  pages={433--444},
+  year={2011}
+}
+
+%PESTO
+@inproceedings{PESTO-baum,
+  title={Pesto: Proactively secure distributed single sign-on, or how to trust a hacked server},
+  author={Baum, Carsten and Frederiksen, Tore and Hesse, Julia and Lehmann, Anja and Yanai, Avishay},
+  booktitle={2020 IEEE European Symposium on Security and Privacy (EuroS\&P)},
+  pages={587--606},
+  year={2020},
+  organization={IEEE}
+}
+
+
+%Bearer-only tokens
+ @misc{rfc6750,
+   author = "Jones, Michael B. and Hardt, Dick",
+   title = "{The OAuth 2.0 Authorization Framework: Bearer Token Usage}",
+   HOWPUBLISHED = {Internet Requests for Comments},
+   TYPE="{RFC}",
+   NUMBER=6750,
+   PAGES = {1-18},
+   YEAR = {2012},
+   MONTH = {October},
+   ISSN = {2070-1721},
+   PUBLISHER = "{RFC Editor}",
+   INSTITUTION = "{RFC Editor}",
+   URL={https://www.rfc-editor.org/rfc/rfc6750}
+   }
+
+@inproceedings {270907,
+author = {Kevin Fu and Emil Sit and Kendra Smith and Nick Feamster},
+title = {The Dos and Don{\textquoteright}ts of Client Authentication on the Web},
+booktitle = {10th USENIX Security Symposium (USENIX Security 01)},
+year = {2001},
+address = {Washington, D.C.},
+url = {https://www.usenix.org/conference/10th-usenix-security-symposium/dos-and-donts-client-authentication-web},
+publisher = {USENIX Association},
+month = aug,
+}
+
+%Proof of Possession
+@misc{rfc8705,
+   author = "Jones, Michael B. and Hardt, Dick",
+   title = "{OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens}",
+   HOWPUBLISHED = {Internet Requests for Comments},
+   TYPE="{RFC}",
+   NUMBER=8705,
+   YEAR = {2020},
+   MONTH = {Feburary},
+   ISSN = {2070-1721},
+   PUBLISHER = "{RFC Editor}",
+   INSTITUTION = "{RFC Editor}",
+   URL={https://www.rfc-editor.org/rfc/rfc8705.txt}
+   }
+
+@online{draft-IEFT,
+  author = {Fett, Daniel and Campbell, Brian and Bradley, John and Lodderstedt, Torsten and Jones, Michael and Waite, David},
+  title = {Draft: OAuth 2.0 Demonstration of Proof-of-Possession at the Application Layer (DPoP)},
+  year = 2023,
+  url = {https://oauth.net/2/dpop/},
+  Note = "url={https://datatracker.ietf.org/doc/html/draft-ietf-oauth-dpop}",
+  urldate = {2010-09-30}
+}
+
+
+@article{bellovin,
+  title={Encrypted key exchange: Password-based protocols secure against dictionary attacks},
+  author={Bellovin, Steven Michael and Merritt, Michael},
+  year={1992}
+}
+
+@Inproceedings{Blakley-1979,
+  author    = {G. R. Blakley},
+  title     = {Safeguarding cryptographic keys},
+  booktitle = {Proceedings of the National Computer Conference},
+  pages     = {313--317},
+  year      = {1979}
+}
+
+@inproceedings{virtualSC-camenish,
+  title={Virtual smart cards: How to sign with a password and a server},
+  author={Camenisch, Jan and Lehmann, Anja and Neven, Gregory and Samelin, Kai},
+  booktitle={International Conference on Security and Cryptography for Networks},
+  pages={353--371},
+  year={2016},
+  organization={Springer}
+}
+
+@inproceedings{Server-assisted-secret-gen-Ford,
+  title={Server-assisted generation of a strong secret from a password},
+  author={Ford, Warwick and Kaliski, Burton S},
+  booktitle={Proceedings IEEE 9th International Workshops on Enabling Technologies: Infrastructure for Collaborative Enterprises (WET ICE 2000)},
+  pages={176--180},
+  year={2000},
+  organization={IEEE}
+}
+
+@inproceedings{DistSSHkey-Harchol,
+  title={Distributed SSH key management with proactive RSA threshold signatures},
+  author={Harchol, Yotam and Abraham, Ittai and Pinkas, Benny},
+  booktitle={ACNS},
+  pages={22--43},
+  year={2018},
+  organization={Springer}
+}
+
+@inproceedings{Provably-Raimondo,
+  title={Provably secure threshold password-authenticated key exchange},
+  author={Raimondo, Mario Di and Gennaro, Rosario},
+  booktitle={International Conference on the Theory and Applications of Cryptographic Techniques},
+  pages={507--523},
+  year={2003},
+  organization={Springer}
+}
+
+
+@inproceedings{PASTAU-Rawat,
+  title={PAS-TA-U: PASsword-Based Threshold Authentication with Password Update},
+  author={Rawat, Rachit and Jhanwar, Mahabir Prasad},
+  booktitle={International Conference on Security, Privacy, and Applied Cryptography Engineering},
+  pages={25--45},
+  year={2020},
+  organization={Springer}
+}
+
+@Article{HowToShareSecret-Shamir,
+  author    = {Adi Shamir},
+  title     = {How to Share a Secret},
+  journal   = {Commun. {ACM}},
+  volume    = {22},
+  number    = {11},
+  pages     = {612--613},
+  year      = {1979},
+  url       = {http://doi.acm.org/10.1145/359168.359176},
+  timestamp = {Wed, 14 Nov 2018 10:22:34 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/cacm/Shamir79},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{ServerAssistSig-Xu,
+  title={Two efficient and provably secure schemes for server-assisted threshold signatures},
+  author={Xu, Shouhuai and Sandhu, Ravi},
+  booktitle={Cryptographers’ Track at the RSA Conference},
+  pages={355--373},
+  year={2003},
+  organization={Springer}
+}
+
+@inproceedings{scalable-Xu,
+  title={A scalable and secure cryptographic service},
+  author={Xu, Shouhuai and Sandhu, Ravi},
+  booktitle={IFIP Annual Conference on Data and Applications Security and Privacy},
+  pages={144--160},
+  year={2007},
+  organization={Springer}
+}
+
+@inproceedings{yang2004simplified,
+  title={A simplified approach to user controllable threshold signatures},
+  author={Yang, Jong-Phil and Shin, Sang Uk and Rhee, Kyung-Hyune},
+  booktitle={Proceedings. IEEE International Conference on e-Commerce Technology, 2004. CEC 2004.},
+  pages={273--280},
+  year={2004},
+  organization={IEEE}
+}
+
+@inproceedings{yang2006proactive,
+  title={A proactive secret sharing for server assisted threshold signatures},
+  author={Yang, Jong-Phil and Rhee, Kyung Hyune and Sakurai, Kouichi},
+  booktitle={International Conference on High Performance Computing and Communications},
+  pages={250--259},
+  year={2006},
+  organization={Springer}
+}
+
+
+@article{Kerberos,
+  title="Kerberos: An Authentication Service for Computer Networks",
+  author="B. Clifford Neuman and Theodore Ts'o",
+  journal="IEEE Communications",
+  pages="33--39",
+  year="1994"
+}
+
+@misc{rfc6749OAuth2.0,
+   author = "D. Hardt, Ed",
+   title = "The OAuth 2.0 Authorization Framework",
+   HOWPUBLISHED = "Internet Requests for Comments",
+   TYPE="RFC",
+   NUMBER="6749",
+   PAGES = "1-75",
+   YEAR = "2012",
+   MONTH = "October",
+   ISSN = "2070-1721",
+   PUBLISHER = "RFC Editor",
+   INSTITUTION = "RFC Editor",
+   URL="https://datatracker.ietf.org/doc/html/rfc6749"
+   }
+   
+@InProceedings{10.1007/978-3-540-28628-8_4,
+author="Camenisch, Jan
+and Lysyanskaya, Anna",
+editor="Franklin, Matt",
+title="Signature Schemes and Anonymous Credentials from Bilinear Maps",
+booktitle="Advances in Cryptology -- CRYPTO 2004",
+year="2004",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="56--72",
+abstract="We propose a new and efficient signature scheme that is provably secure in the plain model. The security of our scheme is based on a discrete-logarithm-based assumption put forth by Lysyanskaya, Rivest, Sahai, and Wolf (LRSW) who also showed that it holds for generic groups and is independent of the decisional Diffie-Hellman assumption. We prove security of our scheme under the LRSW assumption for groups with bilinear maps. We then show how our scheme can be used to construct efficient anonymous credential systems as well as group signature and identity escrow schemes. To this end, we provide efficient protocols that allow one to prove in zero-knowledge the knowledge of a signature on a committed (or encrypted) message and to obtain a signature on a committed message.",
+isbn="978-3-540-28628-8"
+}
+
+@inproceedings{schnorr1989efficient,
+  title={Efficient identification and signatures for smart cards},
+  author={Schnorr, Claus-Peter},
+  booktitle={Conference on the Theory and Application of Cryptology},
+  pages={239--252},
+  year={1989},
+  organization={Springer}
+}
+
+@misc{FIDO,
+   author = "FIDO",
+   title = "Specification Overview",
+   HOWPUBLISHED = "Online",
+   URL="https://fidoalliance.org/specifications/"
+   }
+
+%SINGLE SIGN ON SYSTEMS
+@misc{MicrosoftAD,
+    author = "Micorsoft",
+    title = "AD FS Overview",
+    HOWPUBLISHED = "Online",
+    URL = "https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/ad-fs-overview"
+}
+
+@misc{openIDConnect,
+  author ="N. Sakimura and J. Bradley and M. Jones and B. de Medeiros and C. Mortimore",
+  year =         "2014",
+  title =        "OpenID Connect Core 1.0 incorporating errata set 1",
+  url =          "https://openid.net/specs/openid-connect-core-1_0.html",
+  lastaccessed = "August 26, 2023",
+}
+
+@misc{jws-rfc7515,
+    series =    {Request for Comments},
+    number =    7515,
+    howpublished =  {RFC 7515},
+    publisher = {RFC Editor},
+    doi =       {10.17487/RFC7515},
+    url =       {https://www.rfc-editor.org/info/rfc7515},
+    author =    {Michael B. Jones and John Bradley and Nat Sakimura},
+    title =     {{JSON Web Signature (JWS)}},
+    pagetotal = 59,
+    year =      2015,
+    month =     may,
+    abstract =  {JSON Web Signature (JWS) represents content secured with digital signatures or Message Authentication Codes (MACs) using JSON-based data structures. Cryptographic algorithms and identifiers for use with this specification are described in the separate JSON Web Algorithms (JWA) specification and an IANA registry defined by that specification. Related encryption capabilities are described in the separate JSON Web Encryption (JWE) specification.},
+}
+
+@misc{jwt-rfc7519,
+   author = "Michael Jones and John Bradley and Nat Sakimura",
+   title = "{JSON Web Tokens (JWT)}",
+   HOWPUBLISHED = {Internet Requests for Comments},
+   TYPE="{RFC}",
+   NUMBER=7519,
+   PAGES = {1-30},
+   YEAR = {2015},
+   MONTH = {MAY},
+   ISSN = {2070-1721},
+   PUBLISHER = "{RFC Editor}",
+   INSTITUTION = "{RFC Editor}",
+   URL={https://datatracker.ietf.org/doc/html/rfc7519}
+   }
+
+
+@online{SAML,
+  author ="Scott Cantor and John Kemp and Rob Philpott and Eve Maler and Eric Goodman",
+  year =         "2015",
+  title =        "Assertions and Protocols for the OASIS Security Assertion Markup Language (SAML) V2.0 - Errata Composite",
+  url =          "https://www.oasis-open.org/committees/download.php/56776/sstc-saml-core-errata-2.0-wd-07.pdf",
+  lastaccessed = "August 26, 2023",
+}
+
+   
+@misc{Sovrin,
+   author = "Sovrin Foundation",
+   title = "Sovrin: A Protocol and Token for Self-Sovereign Identity and Decentralized Trust",
+   HOWPUBLISHED = "Online",
+   URL="https://sovrin.org/wp-content/uploads/Sovrin-Protocol-and-Token-White-Paper.pdf"
+   }
+
+
+
+@inproceedings{10.1145/195058.195405,
+author = {De Santis, Alfredo and Desmedt, Yvo and Frankel, Yair and Yung, Moti},
+title = {How to Share a Function Securely},
+year = {1994},
+isbn = {0897916638},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/195058.195405},
+doi = {10.1145/195058.195405},
+booktitle = {Proceedings of the Twenty-Sixth Annual ACM Symposium on Theory of Computing},
+pages = {522–533},
+numpages = {12},
+location = {Montreal, Quebec, Canada},
+series = {STOC '94}
+}
+
+@InProceedings{10.1007/3-540-45539-6_15,
+author="Shoup, Victor",
+editor="Preneel, Bart",
+title="Practical Threshold Signatures",
+booktitle="Advances in Cryptology --- EUROCRYPT 2000",
+year="2000",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="207--220",
+abstract="We present an RSA threshold signature scheme. The scheme enjoys the following properties:1.it is unforgeable and robust in the random oracle model, assuming the RSA problem is hard;2.signature share generation and verification is completely non-interactive;3.the size of an individual signature share is bounded by a constant times the size of the RSA modulus.",
+isbn="978-3-540-45539-4"
+}
+  
+@InProceedings{10.1007/3-540-39200-9_32,
+author="Di Raimondo, Mario
+and Gennaro, Rosario",
+editor="Biham, Eli",
+title="Provably Secure Threshold Password-Authenticated Key Exchange",
+booktitle="Advances in Cryptology --- EUROCRYPT 2003",
+year="2003",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="507--523",
+abstract="We present two protocols for threshold password authenticated key exchange. In this model, the password is not stored in a single authenticating server but rather shared among a set of n servers so that an adversary can learn the password only by breaking into t+1 of them. The protocols require n > 3t servers to work.",
+isbn="978-3-540-39200-2"
+}
+
+@INPROCEEDINGS{5670871,
+  author={Yang, Yanjiang and Bao, Feng},
+  booktitle={2010 International Conference on Multimedia Information Networking and Security}, 
+  title={Password Protected Credentials}, 
+  year={2010},
+  volume={},
+  number={},
+  pages={541-545},
+  doi={10.1109/MINES.2010.120}}
+
+@inproceedings{yang2010towards,
+  title={Towards practical anonymous password authentication},
+  author={Yang, Yanjiang and Zhou, Jianying and Wong, Jun Wen and Bao, Feng},
+  booktitle={Proceedings of the 26th Annual Computer Security Applications Conference},
+  pages={59--68},
+  year={2010}
+}
+
+@inproceedings{yang2009new,
+  title={A new approach for anonymous password authentication},
+  author={Yang, Yanjiang and Zhou, Jianying and Weng, Jian and Bao, Feng},
+  booktitle={2009 Annual Computer Security Applications Conference},
+  pages={199--208},
+  year={2009},
+  organization={IEEE}
+}
+  
+
+@inproceedings{hanamsagar2018leveraging,
+  title={Leveraging semantic transformation to investigate password habits and their causes},
+  author={Hanamsagar, Ameya and Woo, Simon S and Kanich, Chris and Mirkovic, Jelena},
+  booktitle={Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+  pages={1--12},
+  year={2018}
+}
+
+@inproceedings{florencio2007large,
+  title={A large-scale study of web password habits},
+  author={Florencio, Dinei and Herley, Cormac},
+  booktitle={Proceedings of the 16th international conference on World Wide Web},
+  pages={657--666},
+  year={2007}
+}
+
+@INPROCEEDINGS{959888,
+  author={Canetti, R.},
+  booktitle={Proceedings 42nd IEEE Symposium on Foundations of Computer Science}, 
+  title={Universally composable security: a new paradigm for cryptographic protocols}, 
+  year={2001},
+  volume={},
+  number={},
+  pages={136-145},
+  doi={10.1109/SFCS.2001.959888}}
+
+@book{10.5555/3267155,
+author = {Guo, Fuchun and Susilo, Willy and Mu, Yi},
+title = {Introduction to Security Reduction},
+year = {2018},
+isbn = {3319930486},
+publisher = {Springer Publishing Company, Incorporated},
+edition = {1st},
+abstract = {This monograph illustrates important notions in security reductions and essential techniques in security reductions for group-based cryptosystems. Using digital signatures and encryption as examples, the authors explain how to program correct security reductions for those cryptographic primitives. Various schemes are selected and re-proven in this book to demonstrate and exemplify correct security reductions. This book is suitable for researchers and graduate students engaged with public-key cryptography.}
+}
+
+@inproceedings{10.5555/1756169.1756190,
+author = {Shoup, Victor},
+title = {Practical Threshold Signatures},
+year = {2000},
+isbn = {3540675175},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+abstract = {We present an RSA threshold signature scheme. The scheme enjoys the following properties: 1. it is unforgeable and robust in the random oracle model, assuming the RSA problem is hard; 2. signature share generation and verification is completely non-interactive; 3. the size of an individual signature share is bounded by a constant times the size of the RSA modulus.},
+booktitle = {Proceedings of the 19th International Conference on Theory and Application of Cryptographic Techniques},
+pages = {207–220},
+numpages = {14},
+location = {Bruges, Belgium},
+series = {EUROCRYPT'00}
+}
+
+@inproceedings{Jarecki2017TOPPSSCP,
+  title={TOPPSS: Cost-Minimal Password-Protected Secret Sharing Based on Threshold OPRF},
+  author={Stanislaw Jarecki and Aggelos Kiayias and Hugo Krawczyk and Jiayu Xu},
+  booktitle={ACNS},
+  year={2017}
+}
+
+
+@article{zhang2020protect,
+  title={PROTECT: efficient password-based threshold single-sign-on authentication for mobile users against perpetual leakage},
+  author={Zhang, Yuan and Xu, Chunxiang and Li, Hongwei and Yang, Kan and Cheng, Nan and Shen, Xuemin},
+  journal={IEEE Transactions on Mobile Computing},
+  volume={20},
+  number={6},
+  pages={2297--2312},
+  year={2020},
+  publisher={IEEE}
+}
+
+@inproceedings{feldman1987practical,
+  title={A practical scheme for non-interactive verifiable secret sharing},
+  author={Feldman, Paul},
+  booktitle={28th Annual Symposium on Foundations of Computer Science (sfcs 1987)},
+  pages={427--438},
+  year={1987},
+  organization={IEEE}
+}
+
+@inproceedings{jarecki2014round,
+  title={Round-optimal password-protected secret sharing and {T}-PAKE in the password-only model},
+  author={Jarecki, Stanislaw and Kiayias, Aggelos and Krawczyk, Hugo},
+  booktitle={ASIACRYPT 2014},
+  pages={233--253},
+  year={2014},
+  organization={Springer}
+}
+
+
+@ARTICLE{jwcrypto,
+title = {JWCrypto},
+year = {2021},
+url = {https://jwcrypto.readthedocs.io/en/latest/}
+}
+
+@ARTICLE{pycrypto,
+title = {PyCryptodome},
+year = {2022},
+month = {November},
+url = {https://www.pycryptodome.org/}
+}
+
+@misc{rfc3526,
+   author = "Kivinen, Tero and Kojo, Mika",
+   title = "More Modular Exponential (MODP) Diffie-Hellman groups for Itnernet Key Exchange (IKE)",
+   HOWPUBLISHED = "Internet Requests for Comments",
+   TYPE="RFC",
+   NUMBER="3526",
+   PAGES = "1-10",
+   YEAR = "2003",
+   MONTH = "May",
+   PUBLISHER = "RFC Editor",
+   INSTITUTION = "RFC Editor",
+   URL="https://www.rfc-editor.org/rfc/rfc3526"
+   }
+
+%Password breaches new articles
+
+
+@article{gaurdian.2023,
+ author  = {Grierson, Jamie},
+ date    = {April 5 2023},
+ title   = {International sting takes down online marketplace of stolen identities},
+ journal = {The Gaurdian},
+ url     = {https://www.theguardian.com/technology/2023/apr/05/international-sting-takes-down-online-marketplace-of-stolen-identities},
+ urldate = {2023-05-01}
+}
+
+@article{cbc.2016,
+ author  = {Associated Press},
+ date    = {Dec 14 2016},
+ title   = {Yahoo discloses 'shocking' hack affecting 1 billion accounts},
+ journal = {The CBC},
+ url     = {https://www.cbc.ca/news/science/yahoo-data-breach-1.3896994},
+ urldate = {2023-01-22}
+}
+
+@article{NPR.2021,
+ author  = {Bowman, Emma},
+ date    = {April 9 2021},
+ title   = {Data Breach Exposes 530 Millionm Facebook Says it Will Not Notify Users},
+ journal = {National Public Radio},
+ url     = {https://www.npr.org/2021/04/09/986005820/after-data-breach-exposes-530-million-facebook-says-it-will-not-notify-users},
+ urldate = {2023-05-01}
+}
+
+@article{WIRED.2016,
+author = {Barrett, Brian},
+ date    = {May 21 2016},
+ title   = {Hack Breif: Your Old MySpace Account Just Came Back to Haunt You},
+ journal = {WIRED},
+ url     = {https://www.wired.com/2016/05/hack-brief-old-myspace-account-just-came-back-haunt/?redirectURL=https\%3A\%2F\%2Fwww.wired.com\%2F2016\%2F05\%2Fhack-brief-old-myspace-account-just-came-back-haunt\%2F},
+ urldate = {2023-05-01}
+}
+
+@ARTICLE{pythonanywhere,
+title = {PythonAnywhere},
+author = {Anaconda},
+url = {https://www.pythonanywhere.com}
+}
+
+
+@article{chakraborty2022honeyword,
+  title={Honeyword-based Authentication Techniques for Protecting Passwords: A Survey},
+  author={Chakraborty, Nilesh and Li, Jianqiang and Leung, Victor CM and Mondal, Samrat and Pan, Yi and Luo, Chengwen and Mukherjee, Mithun},
+  journal={ACM Computing Surveys},
+  volume={55},
+  number={8},
+  pages={1--37},
+  year={2022},
+  publisher={ACM New York, NY}
+}
+
+@inproceedings{camenisch2015optimal,
+  title={Optimal distributed password verification},
+  author={Camenisch, Jan and Lehmann, Anja and Neven, Gregory},
+  booktitle={Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security},
+  pages={182--194},
+  year={2015}
+}
+
+@inproceedings{everspaugh2015pythia,
+  title={The Pythia $\{$PRF$\}$ Service},
+  author={Everspaugh, Adam and Chaterjee, Rahul and Scott, Samuel and Juels, Ari and Ristenpart, Thomas},
+  booktitle={24th $\{$USENIX$\}$ Security Symposium ($\{$USENIX$\}$ Security 15)},
+  pages={547--562},
+  year={2015}
+}
+
+@inproceedings{di2003provably,
+  title={Provably secure threshold password-authenticated key exchange},
+  author={Di Raimondo, Mario and Gennaro, Rosario},
+  booktitle={Advances in Cryptology—EUROCRYPT 2003: International Conference on the Theory and Applications of Cryptographic Techniques, Warsaw, Poland, May 4--8, 2003 Proceedings 22},
+  pages={507--523},
+  year={2003},
+  organization={Springer}
+}
+
+@inproceedings{harchol2018distributed,
+  title={Distributed SSH key management with proactive RSA threshold signatures},
+  author={Harchol, Yotam and Abraham, Ittai and Pinkas, Benny},
+  booktitle={Applied Cryptography and Network Security: 16th International Conference, ACNS 2018, Leuven, Belgium, July 2-4, 2018, Proceedings 16},
+  pages={22--43},
+  year={2018},
+  organization={Springer}
+}
+
+@inproceedings{herzberg1995proactive,
+  title={Proactive secret sharing or: How to cope with perpetual leakage},
+  author={Herzberg, Amir and Jarecki, Stanis{\l}aw and Krawczyk, Hugo and Yung, Moti},
+  booktitle={Annual International Cryptology Conference},
+  pages={339--352},
+  year={1995},
+  organization={Springer}
+}
+
+@inproceedings{eldefrawy2020communication,
+  title={Communication-efficient proactive secret sharing for dynamic groups with dishonest majorities},
+  author={Eldefrawy, Karim and Lepoint, Tancrede and Leroux, Antonin},
+  booktitle={Applied Cryptography and Network Security: 18th International Conference, ACNS 2020, Rome, Italy, October 19--22, 2020, Proceedings, Part I},
+  pages={3--23},
+  year={2020},
+  organization={Springer}
+}
+
+%Biometric privacy
+@Report{CANADAPrivacy,
+  Title                    = {Data at Your Fingertips Biometric and the Challenges to Privacy},
+  Author                   = {{Office of the Privacy Commissioner or Canada}},
+  Date                     = {2022-03-01},
+  Institution              = {Office of the Privacy Commissioner or Canada},
+  Year                     = {2011},
+}
+
+
+@article{10.3233/JCS-150529,
+author = {Bugliesi, Michele and Calzavara, Stefano and Focardi, Riccardo and Khan, Wilayat},
+title = {CookiExt: Patching the Browser against Session Hijacking Attacks},
+year = {2015},
+issue_date = {Sep 2015},
+publisher = {IOS Press},
+address = {NLD},
+volume = {23},
+number = {4},
+issn = {0926-227X},
+url = {https://doi.org/10.3233/JCS-150529},
+doi = {10.3233/JCS-150529},
+abstract = {Session cookies constitute one of the main attack targets against client authentication on the Web. To counter these attacks, modern web browsers implement native cookie protection mechanisms based on the HttpOnly and Secure flags. While there is a general understanding about the effectiveness of these defenses, no formal result has so far been proved about the security guarantees they convey. With the present paper we provide the first such result, by presenting a mechanized proof of noninterference assessing the robustness of the HttpOnly and Secure cookie flags against both web and network attackers with the ability to perform arbitrary XSS code injection. We then develop CookiExt, a browser extension that provides client-side protection against session hijacking, based on appropriate flagging of session cookies and automatic redirection over HTTPS for HTTP requests carrying these cookies. Our solution improves over existing client-side defenses by combining protection against both web and network attacks, while at the same time being designed so as to minimise its effects on the user’s browsing experience. Finally, we report on the experiments we carried out to practically evaluate the effectiveness of our approach.},
+journal = {J. Comput. Secur.},
+month = {sep},
+pages = {509–537},
+numpages = {29},
+keywords = {formal methods, session cookies, Browser security, noninterference}
+}
+
+
+@online{GitHubTokenTheft,
+  author = {Mike Hanley},
+  title = {Security alert: Attack campaign involving stolen OAuth user tokens issued to two third-party integrators},
+  year = 2022,
+  url = {https://github.blog/2022-04-15-security-alert-stolen-oauth-user-tokens/},
+  urldate = {2024-04-01}
+}
+https://github.blog/2022-04-15-security-alert-stolen-oauth-user-tokens/
+
+@online{MicrosoftTokenTheft,
+  author = {Microsoft},
+  title = {Token tactics: How to prevent, detect, and respond to cloud token theft},
+  year = 2022,
+  url = {https://www.microsoft.com/en-us/security/blog/2022/11/16/token-tactics-how-to-prevent-detect-and-respond-to-cloud-token-theft/},
+  urldate = {2024-04-01}
+}
+
+
+@InProceedings{10.1007/978-3-642-19125-1_7,
+author="Nikiforakis, Nick
+and Meert, Wannes
+and Younan, Yves
+and Johns, Martin
+and Joosen, Wouter",
+editor="Erlingsson, {\'U}lfar
+and Wieringa, Roel
+and Zannone, Nicola",
+title="SessionShield: Lightweight Protection against Session Hijacking",
+booktitle="Engineering Secure Software and Systems",
+year="2011",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="87--100",
+abstract="The class of Cross-site Scripting (XSS) vulnerabilities is the most prevalent security problem in the field of Web applications. One of the main attack vectors used in connection with XSS is session hijacking via session identifier theft. While session hijacking is a client-side attack, the actual vulnerability resides on the server-side and, thus, has to be handled by the website's operator. In consequence, if the operator fails to address XSS, the application's users are defenseless against session hijacking attacks.",
+isbn="978-3-642-19125-1"
+}
+
+@inproceedings{10.1145/1367497.1367568,
+author = {Adida, Ben},
+title = {Sessionlock: Securing Web Sessions against Eavesdropping},
+year = {2008},
+isbn = {9781605580852},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1367497.1367568},
+doi = {10.1145/1367497.1367568},
+abstract = {Typical web sessions can be hijacked easily by a network eavesdropper in attacks that have come to be designated "sidejacking." The rise of ubiquitous wireless networks, often unprotected at the transport layer, has significantly aggravated this problem. While SSL can protect against eavesdropping, its usability disadvantages often make it unsuitable when the data is not considered highly confidential. Most web-based email services, for example, use SSL only on their login page and are thus vulnerable to sidejacking.We propose SessionLock, a simple approach to securing web sessions against eavesdropping without extending the use of SSL. SessionLock is easily implemented by web developers using only JavaScript and simple server-side logic. Its performance impact is negligible, and all major web browsers are supported. Interestingly, it is particularly easy to implement on single-page AJAX web applications, e.g. Gmail or Yahoo mail, with approximately 200 lines of JavaScript and 60 lines of server-side verification code.},
+booktitle = {Proceedings of the 17th International Conference on World Wide Web},
+pages = {517–524},
+numpages = {8},
+keywords = {web security},
+location = {Beijing, China},
+series = {WWW '08}
+}
+
+@INPROCEEDINGS{814628,
+
+  author={Sahai, A.},
+
+  booktitle={40th Annual Symposium on Foundations of Computer Science (Cat. No.99CB37039)}, 
+
+  title={Non-malleable non-interactive zero knowledge and adaptive chosen-ciphertext security}, 
+
+  year={1999},
+
+  volume={},
+
+  number={},
+
+  pages={543-553},
+
+  doi={10.1109/SFFCS.1999.814628}}
+
+@misc{cryptoeprint:2019/199,
+      author = {Tatiana Bradley and Jan Camenisch and Stanislaw Jarecki and Anja Lehmann and Gregory Neven and Jiayu Xu},
+      title = {Password-Authenticated Public-Key Encryption},
+      howpublished = {Cryptology ePrint Archive, Paper 2019/199},
+      year = {2019},
+      note = {\url{https://eprint.iacr.org/2019/199}},
+      url = {https://eprint.iacr.org/2019/199}
+}
+
+@misc{cryptoeprint:2015/1101,
+      author = {Jan Camenisch and Anja Lehmann and Gregory Neven and Kai Samelin},
+      title = {Virtual Smart Cards: How to Sign with a Password and a Server},
+      howpublished = {Cryptology ePrint Archive, Paper 2015/1101},
+      year = {2015},
+      note = {\url{https://eprint.iacr.org/2015/1101}},
+      url = {https://eprint.iacr.org/2015/1101}
+}
+
+%%
+@InProceedings{10.1007/3-540-48910-X_30,
+author="Fischlin, Marc",
+editor="Stern, Jacques",
+title="Pseudorandom Function Tribe Ensembles Based on One-Way Permutations: Improvements and Applications",
+booktitle="Advances in Cryptology --- EUROCRYPT '99",
+year="1999",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="432--445",
+abstract="Pseudorandom function tribe ensembles are pseudorandom function ensembles that have an additional collision resistance property: almost all functions have disjoint ranges. We present an alternative to the construction of pseudorandom function tribe ensembles based on one-way permutations given by Canetti, Micciancio and Reingold [7]. Our approach yields two different but related solutions: One construction is somewhat theoretic, but conceptually simple and therefore gives an easier proof that one-way permutations suffice to construct pseudorandom function tribe ensembles. The other, slightly more complicated solution provides a practical construction; it starts with an arbitrary pseudorandom function ensemble and assimilates the one-way permutation to this ensemble. Therefore, the second solution inherits important characteristics of the underlying pseudorandom function ensemble: it is almost as efficient and if the starting pseudorandom function ensemble is invertible then so is the derived tribe ensemble. We also show that the latter solution yields so-called committing private-key encryption schemes. i.e., where each ciphertext corresponds to exactly one plaintext --- independently of the choice of the secret key or the random bits used in the encryption process.",
+isbn="978-3-540-48910-8"
+}
+
+%KangarooTwelve
+@inproceedings{Bertoni2018KangarooTwelveFH,
+  title={KangarooTwelve: fast hashing based on Keccak-p},
+  author={Guido Bertoni and Joan Daemen and Micha{\"e}l Peeters and Gilles Van Assche and Ronny Van Keer},
+  booktitle={IACR Cryptology ePrint Archive},
+  year={2018},
+  url={https://api.semanticscholar.org/CorpusID:45611244}
+}
+
+@inproceedings{10.1145/2810103.2813726,
+author = {Fett, Daniel and K\"{u}sters, Ralf and Schmitz, Guido},
+title = {SPRESSO: A Secure, Privacy-Respecting Single Sign-On System for the Web},
+year = {2015},
+isbn = {9781450338325},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2810103.2813726},
+doi = {10.1145/2810103.2813726},
+abstract = {Single sign-on (SSO) systems, such as OpenID and OAuth, allow web sites, so-called relying parties (RPs), to delegate user authentication to identity providers (IdPs), such as Facebook or Google. These systems are very popular, as they provide a convenient means for users to log in at RPs and move much of the burden of user authentication from RPs to IdPs. There is, however, a downside to current systems, as they do not respect users' privacy: IdPs learn at which RP a user logs in. With one exception, namely Mozilla's BrowserID system (a.k.a. Mozilla Persona), current SSO systems were not even designed with user privacy in mind. Unfortunately, recently discovered attacks, which exploit design flaws of BrowserID, show that BrowserID does not provide user privacy either.In this paper, we therefore propose the first privacy-respecting SSO system for the web, called SPRESSO (for Secure Privacy-REspecting Single Sign-On). The system is easy to use, decentralized, and platform independent. It is based solely on standard HTML5 and web features and uses no browser extensions, plug-ins, or other executables.Existing SSO systems and the numerous attacks on such systems illustrate that the design of secure SSO systems is highly non-trivial. We therefore also carry out a formal analysis of SPRESSO based on an expressive model of the web in order to formally prove that SPRESSO enjoys strong authentication and privacy properties.},
+booktitle = {Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security},
+pages = {1358–1369},
+numpages = {12},
+keywords = {web security, single sign-on, HTML5, privacy, formal analysis},
+location = {Denver, Colorado, USA},
+series = {CCS '15}
+}
+
+@INPROCEEDINGS{8422732,
+  author={Asghar, Muhammad Rizwan and Backes, Michael and Simeonovski, Milivoj},
+  booktitle={2018 IEEE International Conference on Communications (ICC)}, 
+  title={PRIMA: Privacy-Preserving Identity and Access Management at Internet-Scale}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/ICC.2018.8422732}}
+
+@inproceedings{10.1145/3320269.3384724,
+author = {Hammann, Sven and Sasse, Ralf and Basin, David},
+title = {Privacy-Preserving OpenID Connect},
+year = {2020},
+isbn = {9781450367509},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3320269.3384724},
+doi = {10.1145/3320269.3384724},
+abstract = {OpenID Connect is the most widely used Internet protocol for delegated authentication today. It provides single sign-on functionality for users who use their account with an identity provider to authenticate to different services, called relying parties. Unfortunately OpenID Connect is not privacy-friendly: the identity provider learns with each use which relying party the user logs in to. This necessitates a high degree of trust in the identity provider, and is especially problematic when the relying parties' identity reveals sensitive information. We present two extensions to OpenID Connect that address this privacy concern. We first present a simple extension that prevents the identity provider from learning to which relying parties its users log in, and we further extend this solution to also prevent colluding relying parties from tracking users. We give formal security proofs for both standard OpenID Connect and our extensions using the Tamarin security protocol verification tool.},
+booktitle = {Proceedings of the 15th ACM Asia Conference on Computer and Communications Security},
+pages = {277–289},
+numpages = {13},
+keywords = {OpenID connect, privacy, protocol verification, single sign-on},
+location = {Taipei, Taiwan},
+series = {ASIA CCS '20}
+}
+
+
+@article{Zhang_2021,
+   title={EL PASSO: Efficient and Lightweight Privacy-preserving Single Sign On},
+   volume={2021},
+   ISSN={2299-0984},
+   url={http://dx.doi.org/10.2478/popets-2021-0018},
+   DOI={10.2478/popets-2021-0018},
+   number={2},
+   journal={Proceedings on Privacy Enhancing Technologies},
+   publisher={Privacy Enhancing Technologies Symposium Advisory Board},
+   author={Zhang, Zhiyi and Król, Michał and Sonnino, Alberto and Zhang, Lixia and Rivière, Etienne},
+   year={2021},
+   month=jan, pages={70–87} }
+
+@inproceedings{10.1145/3605760.3623767,
+author = {Johnson, Athan D. and Alom, Ifteher and Xiao, Yang},
+title = {Rethinking Single Sign-On: A Reliable and Privacy-Preserving Alternative with Verifiable Credentials},
+year = {2023},
+isbn = {9798400702563},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3605760.3623767},
+doi = {10.1145/3605760.3623767},
+abstract = {Single sign-on (SSO) has provided convenience to users in the web domain as it can authorize a user to access various resource providers (RPs) using the identity provider (IdP)'s unified authentication portal. However, SSO also faces security problems including IdP single-point failure and the privacy associated with identity linkage. In this paper, we present the initial design of an alternative SSO solution called VC-SSO to address the security and privacy problems while preserving SSO's usability. VC-SSO leverages the recently emerged decentralized identifier (DID) and verifiable credential (VC) framework in that a user only needs to authenticate with the IdP once to obtain a VC and then may generate multiple verifiable presentations (VPs) from the VC to access different RPs. This is based on the design that each RP has established a smart contract with the IdP specifying the service agreement and the VP schema for user authorization. We hope the proposed VC-SSO design marks the first step toward a future SSO system that provides strong reliability and privacy to users under adversarial conditions.},
+booktitle = {Proceedings of the 10th ACM Workshop on Moving Target Defense},
+pages = {25–28},
+numpages = {4},
+keywords = {single sign-on, verifiable credential, authentication, privacy},
+location = {, Copenhagen, Denmark, },
+series = {MTD '23}
+}
+
+@misc{guo2022uppresso,
+      title={UPPRESSO: Untraceable and Unlinkable Privacy-PREserving Single Sign-On Services}, 
+      author={Chengqian Guo and Jingqiang Lin and Quanwei Cai and Wei Wang and Fengjun Li and Qiongxiao Wang and Jiwu Jing and Bin Zhao},
+      year={2022},
+      eprint={2110.10396},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+
+@INPROCEEDINGS{10190538,
+  author={Xu, Rongwu and Yang, Sen and Zhang, Fan and Fang, Zhixuan},
+  booktitle={2023 IEEE 8th European Symposium on Security and Privacy (EuroS \& P)}, 
+  title={MISO: Legacy-compatible Privacy-preserving Single Sign-on using Trusted Execution Environments}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={352-372},
+  doi={10.1109/EuroSP57164.2023.00029}}
+
+
+@misc{cryptoeprint:2023/915,
+      author = {Tore Kasper Frederiksen and Julia Hesse and Bertram Poettering and Patrick Towa},
+      title = {Attribute-based Single Sign-On: Secure, Private, and Efficient},
+      howpublished = {Cryptology ePrint Archive, Paper 2023/915},
+      year = {2023},
+      note = {\url{https://eprint.iacr.org/2023/915}},
+      url = {https://eprint.iacr.org/2023/915}
+}
+
+
+
+@article{10.1137/0217017,
+author = {Goldwasser, Shafi and Micali, Silvio and Rivest, Ronald L.},
+title = {A Digital Signature Scheme Secure against Adaptive Chosen-Message Attacks},
+year = {1988},
+issue_date = {April 1988},
+publisher = {Society for Industrial and Applied Mathematics},
+address = {USA},
+volume = {17},
+number = {2},
+issn = {0097-5397},
+url = {https://doi.org/10.1137/0217017},
+doi = {10.1137/0217017},
+journal = {SIAM J. Comput.},
+month = {apr},
+pages = {281–308},
+numpages = {28}
+}
+
+
+@InProceedings{10.1007/3-540-39118-5_13,
+author="Chaum, David
+and Evertse, Jan-Hendrik
+and van de Graaf, Jeroen",
+editor="Chaum, David
+and Price, Wyn L.",
+title="An Improved Protocol for Demonstrating Possession of Discrete Logarithms and Some Generalizations",
+booktitle="Advances in Cryptology --- EUROCRYPT' 87",
+year="1988",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="127--141",
+abstract="A new protocol is presented that allows A to convince B that she knows a solution to the Discrete Log Problem---i.e. that she knows an x such that $\alpha$x ≡ $\beta$ (mod N) holds---without revealing anything about x to B. Protocols are given both for N prime and for N composite.",
+isbn="978-3-540-39118-0"
+}
+
